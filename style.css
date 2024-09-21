@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box{
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+header{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+input{
+    width: 90%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+p{
+    font-size: x-large;
+    font-weight: bold;
+    width: 90%;
+    text-align: center;
+    margin-top: 1rem;
+}
+#calculate{
+    margin-left: 1rem;
+}
+button{
+    width: 43%;
+    height: 3.5rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
