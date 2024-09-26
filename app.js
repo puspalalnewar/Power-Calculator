@@ -9,8 +9,8 @@ const calRes = () => {
 } 
 
 calculate.addEventListener("click", ()=>{
-    console.log(calRes());
     ans.innerHTML = `Ans : ${num.value}<sup>${powx.value}</sup> = ${calRes()}`
+    
 })
 
 reset.addEventListener("click", ()=>{
