@@ -10,17 +10,19 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .box{
-    margin-top: 3rem;
     padding-bottom: 2rem;
     border-radius: 10px;
-    background-color: aliceblue;
+    background: #444444;
+    color: white;
+    margin-top: 1rem;
 }
 header{
     text-align: center;
     margin-top: 1rem;
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bold;
     margin-bottom: 1rem;
+    color: darkturquoise;
 }
 input{
     width: 90%;
@@ -43,6 +45,11 @@ p{
 }
 #calculate{
     margin-left: 1rem;
+    background: #2cc633;
+    
+}
+#reset{
+    background-color: #1e94f4;
 }
 button{
     width: 43%;
@@ -51,4 +58,9 @@ button{
     border-radius: 10px;
     border: 1px solid black;
     cursor: pointer;
+    font-size: larger;
+    font-size: large;
+    color: white;
+    border: none;
+    outline: 0;
 }
