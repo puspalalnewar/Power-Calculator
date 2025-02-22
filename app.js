@@ -9,7 +9,12 @@ const calRes = () => {
 } 
 
 calculate.addEventListener("click", ()=>{
-    ans.innerHTML = `Ans : ${num.value}<sup>${powx.value}</sup> = ${calRes()}`
+    if(num.value==0 && powx.value==0){
+        ans.innerHTML = `0<sup>0</sup> is undefined`;  // this is added in if-else block to handle 0^0 case
+    }
+    else{
+        ans.innerHTML = `Ans : ${num.value}<sup>${powx.value}</sup> = ${calRes()}`
+    }
     
 })
 
